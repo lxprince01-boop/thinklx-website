@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Case Studies — Think LX</title>
 <meta name="description" content="Real engagements, published as they complete. No fabricated case studies, ever.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij4KPGRlZnM+CjxsaW5lYXJHcmFkaWVudCBpZD0ibHhHcmFkIiB4MT0iMCIgeTE9IjEiIHgyPSIxIiB5Mj0iMCI+CiAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjMDBFNUZGIi8+CiAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjN0MzQUVEIi8+CjwvbGluZWFyR3JhZGllbnQ+CjxyYWRpYWxHcmFkaWVudCBpZD0ibHhHbG93U29mdCIgY3g9IjAuNSIgY3k9IjAuNSIgcj0iMC41Ij4KICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMwMEU1RkYiIHN0b3Atb3BhY2l0eT0iMC41NSIvPgogIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzAwRTVGRiIgc3RvcC1vcGFjaXR5PSIwIi8+CjwvcmFkaWFsR3JhZGllbnQ+CjwvZGVmcz4KPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IiMwQjBGMTkiLz4KPGNpcmNsZSBjeD0iMzIiIGN5PSIzMiIgcj0iMjYiIGZpbGw9InVybCgjbHhHbG93U29mdCkiLz4KPGNpcmNsZSBjeD0iMzIiIGN5PSIzMiIgcj0iMTYiIGZpbGw9InVybCgjbHhHcmFkKSIvPgo8L3N2Zz4=">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -118,8 +119,8 @@ input,select,textarea{font-family:var(--font-body);}
 }
 .nav{display:flex;align-items:center;justify-content:space-between;padding:18px 0;}
 .logo{display:flex;align-items:center;gap:10px;font-family:var(--font-head);font-weight:700;font-size:19px;}
-.logo-mark{width:30px;height:30px;border-radius:8px;background:var(--gradient);position:relative;}
-.logo-mark::after{content:"";position:absolute;inset:8px;border-radius:50%;background:var(--bg);}
+.logo-mark{width:30px;height:30px;flex:none;display:inline-flex;}
+.logo-mark svg{display:block;width:100%;height:100%;}
 .logo-sub{display:none;}
 @media (min-width:860px){ .logo-sub{display:inline;color:var(--text-secondary);font-family:var(--font-body);font-weight:500;font-size:12px;border-left:1px solid var(--border);padding-left:10px;margin-left:2px;letter-spacing:0.02em;} }
 
@@ -325,7 +326,35 @@ input[type=range]{width:100%;accent-color:var(--cyan);}
 <header class="site-header">
   <nav class="nav wrap">
     <a href="index.html" class="logo" aria-label="Think LX home">
-      <span class="logo-mark" aria-hidden="true"></span>
+      <span class="logo-mark" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 64 64">
+<defs>
+<linearGradient id="lxGrad" x1="0" y1="1" x2="1" y2="0">
+  <stop offset="0" stop-color="#00E5FF"/>
+  <stop offset="1" stop-color="#7C3AED"/>
+</linearGradient>
+<filter id="lxGlow" x="-100%" y="-100%" width="300%" height="300%">
+  <feGaussianBlur stdDeviation="3.2" result="b"/>
+</filter>
+</defs>
+<defs>
+<linearGradient id="lxLinea0" gradientUnits="userSpaceOnUse" x1="33.15" y1="6.55" x2="32.00" y2="33.00"><stop offset="0" stop-color="#00E5FF"/><stop offset="1" stop-color="#7C3AED"/></linearGradient>
+<linearGradient id="lxLinea1" gradientUnits="userSpaceOnUse" x1="56.15" y1="28.86" x2="32.00" y2="33.00"><stop offset="0" stop-color="#00E5FF"/><stop offset="1" stop-color="#7C3AED"/></linearGradient>
+<linearGradient id="lxLinea2" gradientUnits="userSpaceOnUse" x1="9.46" y1="42.66" x2="32.00" y2="33.00"><stop offset="0" stop-color="#00E5FF"/><stop offset="1" stop-color="#7C3AED"/></linearGradient>
+<linearGradient id="lxLinea3" gradientUnits="userSpaceOnUse" x1="39.36" y1="57.15" x2="32.00" y2="33.00"><stop offset="0" stop-color="#00E5FF"/><stop offset="1" stop-color="#7C3AED"/></linearGradient>
+</defs>
+<g>
+  <circle cx="32.00" cy="33.00" r="11.50" fill="#00E5FF" opacity="0.28" filter="url(#lxGlow)"/>
+  <line x1="33.15" y1="6.55" x2="32.00" y2="33.00" stroke="url(#lxLinea0)" stroke-width="1.20" stroke-linecap="round"/>
+  <line x1="56.15" y1="28.86" x2="32.00" y2="33.00" stroke="url(#lxLinea1)" stroke-width="1.20" stroke-linecap="round"/>
+  <line x1="9.46" y1="42.66" x2="32.00" y2="33.00" stroke="url(#lxLinea2)" stroke-width="1.20" stroke-linecap="round"/>
+  <line x1="39.36" y1="57.15" x2="32.00" y2="33.00" stroke="url(#lxLinea3)" stroke-width="1.20" stroke-linecap="round"/>
+  <circle cx="33.15" cy="6.55" r="3.56" fill="#FFFFFF"/>
+  <circle cx="56.15" cy="28.86" r="2.42" fill="#FFFFFF"/>
+  <circle cx="9.46" cy="42.66" r="3.33" fill="#FFFFFF"/>
+  <circle cx="39.36" cy="57.15" r="2.07" fill="#FFFFFF"/>
+  <circle cx="32.00" cy="33.00" r="7.82" fill="url(#lxGrad)"/>
+</g>
+</svg></span>
       Think LX
       <span class="logo-sub">AI-Powered Client Acquisition Systems</span>
     </a>
@@ -422,7 +451,35 @@ input[type=range]{width:100%;accent-color:var(--cyan);}
     <div class="footer-grid">
       <div>
         <div class="logo" style="margin-bottom:14px;">
-          <span class="logo-mark" aria-hidden="true"></span> Think LX
+          <span class="logo-mark" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 64 64">
+<defs>
+<linearGradient id="lxGrad" x1="0" y1="1" x2="1" y2="0">
+  <stop offset="0" stop-color="#00E5FF"/>
+  <stop offset="1" stop-color="#7C3AED"/>
+</linearGradient>
+<filter id="lxGlow" x="-100%" y="-100%" width="300%" height="300%">
+  <feGaussianBlur stdDeviation="3.2" result="b"/>
+</filter>
+</defs>
+<defs>
+<linearGradient id="lxLinea0" gradientUnits="userSpaceOnUse" x1="33.15" y1="6.55" x2="32.00" y2="33.00"><stop offset="0" stop-color="#00E5FF"/><stop offset="1" stop-color="#7C3AED"/></linearGradient>
+<linearGradient id="lxLinea1" gradientUnits="userSpaceOnUse" x1="56.15" y1="28.86" x2="32.00" y2="33.00"><stop offset="0" stop-color="#00E5FF"/><stop offset="1" stop-color="#7C3AED"/></linearGradient>
+<linearGradient id="lxLinea2" gradientUnits="userSpaceOnUse" x1="9.46" y1="42.66" x2="32.00" y2="33.00"><stop offset="0" stop-color="#00E5FF"/><stop offset="1" stop-color="#7C3AED"/></linearGradient>
+<linearGradient id="lxLinea3" gradientUnits="userSpaceOnUse" x1="39.36" y1="57.15" x2="32.00" y2="33.00"><stop offset="0" stop-color="#00E5FF"/><stop offset="1" stop-color="#7C3AED"/></linearGradient>
+</defs>
+<g>
+  <circle cx="32.00" cy="33.00" r="11.50" fill="#00E5FF" opacity="0.28" filter="url(#lxGlow)"/>
+  <line x1="33.15" y1="6.55" x2="32.00" y2="33.00" stroke="url(#lxLinea0)" stroke-width="1.20" stroke-linecap="round"/>
+  <line x1="56.15" y1="28.86" x2="32.00" y2="33.00" stroke="url(#lxLinea1)" stroke-width="1.20" stroke-linecap="round"/>
+  <line x1="9.46" y1="42.66" x2="32.00" y2="33.00" stroke="url(#lxLinea2)" stroke-width="1.20" stroke-linecap="round"/>
+  <line x1="39.36" y1="57.15" x2="32.00" y2="33.00" stroke="url(#lxLinea3)" stroke-width="1.20" stroke-linecap="round"/>
+  <circle cx="33.15" cy="6.55" r="3.56" fill="#FFFFFF"/>
+  <circle cx="56.15" cy="28.86" r="2.42" fill="#FFFFFF"/>
+  <circle cx="9.46" cy="42.66" r="3.33" fill="#FFFFFF"/>
+  <circle cx="39.36" cy="57.15" r="2.07" fill="#FFFFFF"/>
+  <circle cx="32.00" cy="33.00" r="7.82" fill="url(#lxGrad)"/>
+</g>
+</svg></span> Think LX
         </div>
         <p style="color:var(--text-secondary);font-size:14px;max-width:320px;margin-bottom:16px;">AI-Powered Client Acquisition Systems for agencies and service businesses — built around qualified meetings, not vanity metrics.</p>
         <div class="footer-contact" style="font-size:14px;color:var(--text-secondary);">
