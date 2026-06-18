@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="343.8" height="64" viewBox="0 0 343.8 64">
+<defs>
+<linearGradient id="lxGrad" x1="0" y1="1" x2="1" y2="0">
+  <stop offset="0" stop-color="#00E5FF"/>
+  <stop offset="1" stop-color="#7C3AED"/>
+</linearGradient>
+<filter id="lxGlow" x="-100%" y="-100%" width="300%" height="300%">
+  <feGaussianBlur stdDeviation="3.2" result="b"/>
+</filter>
+</defs>
+<defs>
+<linearGradient id="lxLinea0" gradientUnits="userSpaceOnUse" x1="33.15" y1="6.55" x2="32.00" y2="33.00"><stop offset="0" stop-color="#00E5FF"/><stop offset="1" stop-color="#7C3AED"/></linearGradient>
+<linearGradient id="lxLinea1" gradientUnits="userSpaceOnUse" x1="56.15" y1="28.86" x2="32.00" y2="33.00"><stop offset="0" stop-color="#00E5FF"/><stop offset="1" stop-color="#7C3AED"/></linearGradient>
+<linearGradient id="lxLinea2" gradientUnits="userSpaceOnUse" x1="9.46" y1="42.66" x2="32.00" y2="33.00"><stop offset="0" stop-color="#00E5FF"/><stop offset="1" stop-color="#7C3AED"/></linearGradient>
+<linearGradient id="lxLinea3" gradientUnits="userSpaceOnUse" x1="39.36" y1="57.15" x2="32.00" y2="33.00"><stop offset="0" stop-color="#00E5FF"/><stop offset="1" stop-color="#7C3AED"/></linearGradient>
+</defs>
+<g>
+  <circle cx="32.00" cy="33.00" r="11.50" fill="#00E5FF" opacity="0.28" filter="url(#lxGlow)"/>
+  <line x1="33.15" y1="6.55" x2="32.00" y2="33.00" stroke="url(#lxLinea0)" stroke-width="1.20" stroke-linecap="round"/>
+  <line x1="56.15" y1="28.86" x2="32.00" y2="33.00" stroke="url(#lxLinea1)" stroke-width="1.20" stroke-linecap="round"/>
+  <line x1="9.46" y1="42.66" x2="32.00" y2="33.00" stroke="url(#lxLinea2)" stroke-width="1.20" stroke-linecap="round"/>
+  <line x1="39.36" y1="57.15" x2="32.00" y2="33.00" stroke="url(#lxLinea3)" stroke-width="1.20" stroke-linecap="round"/>
+  <circle cx="33.15" cy="6.55" r="3.56" fill="#FFFFFF"/>
+  <circle cx="56.15" cy="28.86" r="2.42" fill="#FFFFFF"/>
+  <circle cx="9.46" cy="42.66" r="3.33" fill="#FFFFFF"/>
+  <circle cx="39.36" cy="57.15" r="2.07" fill="#FFFFFF"/>
+  <circle cx="32.00" cy="33.00" r="7.82" fill="url(#lxGrad)"/>
+</g>
+<path d="M773 1181V0H478V1181H23V1409H1229V1181Z" fill="#FFFFFF" transform="translate(82.000,53.000) scale(0.029808,-0.029808) translate(0,0)"/>
+  <path d="M420 866Q477 990 563.0 1046.0Q649 1102 768 1102Q940 1102 1032.0 996.0Q1124 890 1124 686V0H844V606Q844 891 651 891Q549 891 486.5 803.5Q424 716 424 579V0H143V1484H424V1079Q424 970 416 866Z" fill="#FFFFFF" transform="translate(82.000,53.000) scale(0.029808,-0.029808) translate(1251,0)"/>
+  <path d="M143 1277V1484H424V1277ZM143 0V1082H424V0Z" fill="#FFFFFF" transform="translate(82.000,53.000) scale(0.029808,-0.029808) translate(2502,0)"/>
+  <path d="M844 0V607Q844 892 651 892Q549 892 486.5 804.5Q424 717 424 580V0H143V840Q143 927 140.5 982.5Q138 1038 135 1082H403Q406 1063 411.0 980.5Q416 898 416 867H420Q477 991 563.0 1047.0Q649 1103 768 1103Q940 1103 1032.0 997.0Q1124 891 1124 687V0Z" fill="#FFFFFF" transform="translate(82.000,53.000) scale(0.029808,-0.029808) translate(3071,0)"/>
+  <path d="M834 0 545 490 424 406V0H143V1484H424V634L810 1082H1112L732 660L1141 0Z" fill="#FFFFFF" transform="translate(82.000,53.000) scale(0.029808,-0.029808) translate(4322,0)"/>
+<path d="M137 0V1409H432V228H1188V0Z" fill="url(#lxGrad)" transform="translate(82.000,53.000) scale(0.029808,-0.029808) translate(6030,0)"/>
+  <path d="M1038 0 684 561 330 0H18L506 741L59 1409H371L684 911L997 1409H1307L879 741L1348 0Z" fill="url(#lxGrad)" transform="translate(82.000,53.000) scale(0.029808,-0.029808) translate(7281,0)"/>
+</svg>
